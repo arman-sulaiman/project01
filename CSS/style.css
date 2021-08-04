@@ -112,8 +112,8 @@ body{
 
 .app_img img{ 
     margin-top: -170px; 
-    height: 590px; 
-    width: 1100px; 
+    max-width: 100%; 
+    height: auto; 
     border-radius: 10px;
 }
 
@@ -639,8 +639,9 @@ margin-bottom: 60px;
         font-size: 50px; 
     }
 
-    .app_img{
-        width: 100px; 
+    .app_img img{
+        width: 300px; 
+
     }
 }
 
